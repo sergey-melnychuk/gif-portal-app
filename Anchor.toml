@@ -1,0 +1,14 @@
+#[programs.localnet]
+[programs.devnet]
+gif_portal_app = "4yj5VKgX1ieoeQRvn97nd9zbv9RA3VxM2rJzwUNcS7xq"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+#cluster = "localnet"
+cluster = "devnet"
+wallet = "/Users/sergey/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
